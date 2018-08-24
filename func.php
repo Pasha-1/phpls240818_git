@@ -1,5 +1,5 @@
 <?php
-//зад.1
+//зад.1 =======================
 function task1($arr, $bool = false)
 {
     foreach ($arr as $item) {
@@ -10,8 +10,7 @@ function task1($arr, $bool = false)
     }
 }
 
-//=============================================================
-//зад.2
+//зад.2  =======================
 function task2($arrNum, $action)
 {
     $actionArr = ["+", "-", "*", "/"];
@@ -47,8 +46,7 @@ function task2($arrNum, $action)
     return $res;
 }
 
-//=============================================================
-//зад.3
+//зад.3 =======================
 function task3($rowsCount, $colsCount)
 {
     if (is_int($rowsCount) && is_int($colsCount)) {
@@ -69,16 +67,14 @@ function task3($rowsCount, $colsCount)
     }
 }
 
-//=============================================================
-//зад.4 
+//зад.4  =======================
 function task4()
 {
     $date = date('d.m.Y H:i');
     return $date;
 }
 
-//=============================================================
-//зад.5
+//зад.5 =======================
 function task5($text1, $text2)
 {
     $nText1 = str_replace('К', '', $text1);
@@ -87,7 +83,7 @@ function task5($text1, $text2)
     echo $nText2;
 }
 
-//зад.6
+//зад.6 =======================
 function test6($fName)
 {
     $str = file_get_contents($fName);
