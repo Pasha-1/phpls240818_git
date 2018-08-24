@@ -3,7 +3,7 @@ require_once('func.php');
 ob_start();
 $text1 = 'Карл у Клары украл Кораллы.';
 $text2 = 'Две бутылки лимонада.';
-//зад.1
+//зад.1 =======================
 echo "<div class='jumbotron'>";
 echo '<h4>Зад. 1</h4>';
 $data = ['Привет', 'всем студентам,', 'которые учатся', 'в LOFTSCHOOL!!!'];
@@ -33,7 +33,7 @@ echo '<h4>Зад. 4</h4>';
 echo '<p>', task4(), '</p>';
 echo '</div>';
 //зад.5 =======================
-echo "<div class='jumbotron'>"; //++++++++++++++
+echo "<div class='jumbotron'>";
 echo '<h4>Зад. 5</h4>';
 task5($text1, $text2);
 echo '</div>';
