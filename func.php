@@ -78,7 +78,7 @@ function task4()
 function task5($text1, $text2)
 {
     $nText1 = str_replace('К', '', $text1);
-    echo $nText1 . '<br>';
+    echo $nText1 . '<br />';
     $nText2 = str_replace('Две', 'Три', $text2);
     echo $nText2;
 }
